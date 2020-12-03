@@ -16,6 +16,6 @@ public class Usuario {
     @Column(unique = true,length = 50,nullable = false)
     private String userName;
 
-    @Column(nullable = false,length = 50)
+    @Column(nullable = false)
     private String password;
 }

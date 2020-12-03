@@ -1,6 +1,6 @@
-package ar.edu.unsl.trazar.config.filter;
+package ar.edu.unsl.trazar.config.jwt.filter;
 
-import static ar.edu.unsl.trazar.config.ConstantsConfig.*;
+import static ar.edu.unsl.trazar.config.jwt.ConstantsConfig.*;
 
 import io.jsonwebtoken.Jwts;
 import org.springframework.security.authentication.AuthenticationManager;

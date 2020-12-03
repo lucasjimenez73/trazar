@@ -1,16 +1,14 @@
 spring:
   datasource:
-    url: jdbc:h2:file:C:/Users/lucas/IdeaProjects/trazar/trazardb
-    username: sa
-    password: qwerty
-
-  h2:
-    console:
-      enabled: true
+    url: jdbc:mysql://35.224.75.111:3306/dbtaller?serverTimezone=UTC
+    username: root
+    password: milanesa
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
-    database-platform: org.hibernate.dialect.H2Dialect
+    database-platform: org.hibernate.dialect.MySQL57Dialect
+
     properties:
       hibernate:
         show_sql: true

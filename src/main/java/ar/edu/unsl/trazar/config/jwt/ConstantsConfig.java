@@ -1,4 +1,4 @@
-package ar.edu.unsl.trazar.config;
+package ar.edu.unsl.trazar.config.jwt;
 
 public interface ConstantsConfig {
 

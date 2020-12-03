@@ -1,7 +1,7 @@
-package ar.edu.unsl.trazar.config;
+package ar.edu.unsl.trazar.config.jwt;
 
-import ar.edu.unsl.trazar.config.filter.JWTAuthenticationFilter;
-import ar.edu.unsl.trazar.config.filter.JWTAuthorizationFilter;
+import ar.edu.unsl.trazar.config.jwt.filter.JWTAuthenticationFilter;
+import ar.edu.unsl.trazar.config.jwt.filter.JWTAuthorizationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
